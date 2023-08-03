@@ -74,6 +74,7 @@ body {
   font-size: 14px;
   font-weight: 500;
   font-style: normal;
+  list-style-image: none;
 }
 .contacts-link:hover,
 .contacts-link:focus,
@@ -186,7 +187,7 @@ body {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.71; /* 171.429% */
+  line-height: 1.71;
   letter-spacing: 0.42px;
 }
 
