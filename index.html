@@ -16,7 +16,7 @@
 
 <body>
     <header class="header">
-        <div class="container-header">
+        <div class="container header">
             <nav class="navigation">
                 <a class="logo-header link" href="./index.html"><span class="logo-secondary">Web</span>Studio</a>
                 <ul class="nav-list list">
@@ -42,8 +42,10 @@
     <main>
 
         <section class="hero section">
-            <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-            <button class="hero-btn" type="button">Замовити послугу</button>
+            <div class="container">
+                <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+                <button class="hero-btn" type="button">Замовити послугу</button>
+            </div>
         </section>
 
         <section class="features section">
@@ -80,13 +82,13 @@
                 <h2 class="services-title">Чим ми займаємося</h2>
                 <ul class="services-list list">
                     <li class="item">
-                        <img src="./imges/works-on-tablet.jpg" alt="людина працює на планшеті" width="370">
+                        <img class="imge" src="./imges/works-on-tablet.jpg" alt="людина працює на планшеті" width="370">
                     </li>
                     <li class="item">
-                        <img src="./imges/designer-makes.jpg" alt="дизайнер робить макет" width="370">
+                        <img class="imge" src="./imges/designer-makes.jpg" alt="дизайнер робить макет" width="370">
                     </li>
                     <li class="item">
-                        <img src="./imges/color-spectrum.jpg" alt="спектр кольорів" width="370">
+                        <img class="imge" src="./imges/color-spectrum.jpg" alt="спектр кольорів" width="370">
                     </li>
                 </ul>
             </div>
@@ -99,25 +101,33 @@
                     <li class="item">
                         <img class="imge" src="./imges/team-photo/igor-demyanenko.jpg" alt="фото Ігоря Дем'яненко"
                             width="270">
-                        <h3 class="team-name">Ігор Дем'яненко</h3>
-                        <p class="team-text" lang="eu">Product Designer</p>
+                        <div class="team-description">
+                            <h3 class="team-name">Ігор Дем'яненко</h3>
+                            <p class="team-text" lang="eu">Product Designer</p>
+                        </div>
                     </li>
                     <li class="item">
                         <img class="imge" src="./imges/team-photo/olga-repina.jpg" alt="фото Ольги Рэпіной" width="270">
-                        <h3 class="team-name">Ольга Рєпіна</h3>
-                        <p class="team-text" lang="eu">Frontend Developer</p>
+                        <div class="team-description">
+                            <h3 class="team-name">Ольга Рєпіна</h3>
+                            <p class="team-text" lang="eu">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="item">
                         <img class="imge" src="./imges/team-photo/mikola-tarasov.jpg" alt="фото Миколи Тарасова"
                             width="270">
-                        <h3 class="team-name">Микола Тарасов</h3>
-                        <p class="team-text" lang="eu">Marketing</p>
+                        <div class="team-description">
+                            <h3 class="team-name">Микола Тарасов</h3>
+                            <p class="team-text" lang="eu">Marketing</p>
+                        </div>
                     </li>
                     <li class="item">
                         <img class="imge" src="./imges/team-photo/mihaylo-ermakov.jpg" alt="фото Михайла Єрмакова"
                             width="270">
-                        <h3 class="team-name">Михайло Єрмаков</h3>
-                        <p class="team-text" lang="eu">UI Designer</p>
+                        <div class="team-description">
+                            <h3 class="team-name">Михайло Єрмаков</h3>
+                            <p class="team-text" lang="eu">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
