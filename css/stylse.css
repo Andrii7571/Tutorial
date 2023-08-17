@@ -436,6 +436,7 @@ p {
 }
 
 .porfolio-title {
+  margin-bottom: 4px;
   color: var(--color-title);
   font-size: 18px;
   font-weight: 700;
